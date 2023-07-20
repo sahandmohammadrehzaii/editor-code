@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>sahandmohammadrezaii</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+    .navbar {
+      background: #35424a;
+      direction: rtl;
+      text-align: right;
+      padding-right: 30px;
+    }
+
+    ul {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    ul.menu li {
+      display: inline-block;
+      list-style: none;
+      transition: all 0.4s;
+      position: relative;
+    }
+
+    ul.menu li a {
+      display: inline-block;
+      padding: 12px;
+      color: #fff;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    ul.menu li a:hover {
+      background: red;
+    }
+
+    ul.menu li i {
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+
+    /* sub menu */
+   ul.submenu{
+      display: none;
+      width: 160px;
+      position: absolute;
+      top: 42px;
+      background: #35424a;
+    }
+
+    ul.submenu li {
+      display: block;
+      border-bottom: 1px solid #fff;
+    }
+
+    ul.submenu li a {
+      display: block;
+    }
+
+    ul.menu li:hover ul.submenu {
+      display: block;
+      background: #35424a;
+    }
+
+    body {
+      direction: rtl;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <ul class="menu">
+      <li>
+        <a href="#link3"><img src="img/imaji.png" alt="___" width="20" height="20"></a>
+        <ul class="submenu">
+          <li>
+            <a href="index.html">return to home</a>
+          </li>
+          <li>
+            <a href="Naz.html">commenting</a>
+          </li>
+          <li>
+            <a href="CoDe.html">Ready codes</a>
+          </li>
+          <li>
+            <a href="Ledar.html">About ways of communication with the manufacturer</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
+  <!-- پایان باکس سه خط -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Code execution environment HTML sahandmohammadrezaii</title>
+</head>
+<body>
+  <h1>Code execution environment HTML sahandmohammadrezaii</h1>
+  <p>To run the code HTML Enter the code in the box below and click on the "Run" button:</p>
+
+  <textarea id="code"></textarea>
+  <br>
+  <button onclick="runCode()">run</button>
+
+  <script>
+    function runCode() {
+      // گرفتن محتوای کادر متنی
+      var code = document.getElementById("code").value;
+
+      // قرار دادن محتوا در یک iframe
+      var iframe = document.createElement("iframe");
+      iframe.style.width = "100%";
+      iframe.style.height = "500px";
+      document.body.appendChild(iframe);
+
+      // تنظیم محتوای iframe به عنوان کد HTML و اجرای آن
+      var doc = iframe.contentWindow.document;
+      doc.open();
+      doc.write(code);
+      doc.close();
+    }
+  </script>
+</body>
+</html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/as.css">
+</head>
+</div>
+<section>
+<details ope><summary>Click for more details</summary>
+<form>
+    <h1>more details</h1>
+    <h2> Every time you click on the (run) button, places will be created to view the changes according to the number of your clicks. You can easily use this feature and you can easily edit your codes. I suggest you before Use this html pad to create a project.</h2>
+    <div class="footer">
